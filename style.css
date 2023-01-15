@@ -376,7 +376,6 @@ Footer section style end
   /* responsive banner */
   .banner-top-content h1 {
     font-size: 30px;
-    overflow: scroll;
   }
   .banner-image {
     display: flex;
