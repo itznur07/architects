@@ -295,3 +295,24 @@ Our Sponsors section style start
 /* ----------
 Our Sponsors section style end 
               ------------ */
+/* ----------
+Footer section style start 
+              ------------ */
+.footer {
+  margin: 100px 0;
+}
+.footer-content {
+  background-color: #fff4e7;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-content p {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+/* ----------
+Footer section style end 
+              ------------ */
