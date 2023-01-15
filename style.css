@@ -18,6 +18,7 @@ header section design start
               ------------ */
 .header {
   background: rgba(255, 144, 14, 0.1);
+  padding-bottom: 30px;
 }
 
 /* navbar section style start */
@@ -82,16 +83,15 @@ header section design start
   padding: 40px;
   height: 700px;
   margin-top: 50px;
-  margin-bottom: 40px;
 }
 /* banner image style end */
 
 /* ----------
-header section design end 
+header section style end 
               ------------ */
 
 /* ----------
-Features section design start 
+Features section style start 
               ------------ */
 .features {
   margin-top: 85px;
@@ -139,11 +139,11 @@ Features section design start
   cursor: pointer;
 }
 /* ----------
-Features section design end 
+Features section style end 
               ------------ */
 
 /* ----------
-About section design start 
+About section style start 
               ------------ */
 .about {
   margin-top: 130px;
@@ -205,11 +205,11 @@ About section design start
   font-weight: 500;
 }
 /* ----------
-About section design start 
+About section style end 
               ------------ */
 
 /* ----------
-Some fact section design start 
+Some fact section style start 
               ------------ */
 .some-fact {
   margin-top: 120px;
@@ -230,7 +230,6 @@ Some fact section design start
   align-items: center;
   justify-content: space-around;
   margin-top: 100px;
-  margin-bottom: 30px;
 }
 .some-fact-cards .card {
   border: 1px solid #ff900e;
@@ -261,5 +260,38 @@ Some fact section design start
   color: #727272;
 }
 /* ----------
-Some fact section design end 
+Some fact section style end 
+              ------------ */
+
+/* ----------
+Our Sponsors section style start 
+              ------------ */
+.our-sponsors {
+  margin-top: 150px;
+}
+.content-heading {
+  text-align: center;
+}
+.content-heading h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+.content-heading p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 24px;
+  color: #727272;
+}
+.content-cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  margin-top: 50px;
+}
+.content-cards img {
+  width: 130px;
+  filter: grayscale(100%);
+}
+/* ----------
+Our Sponsors section style end 
               ------------ */
